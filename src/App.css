@@ -1,0 +1,30 @@
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100dvh;
+  width: 100dvw;
+}
+
+.grid{
+  display: grid;
+  width: 50%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.grid-item{
+  background-color: #ccc;
+  padding: 30px;
+  text-align: center;
+  border: 1px solid #333;
+}
+button{
+  padding: 1rem;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #0091ff;
+  cursor: pointer;
+  color: black
+}
